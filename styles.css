@@ -11,14 +11,19 @@
 }
 
 .hero-body {
-  background-image: url("https://www.tealca.com/wp-content/uploads/2021/06/002_IMG-FONDO-1.jpg");
+  background-image: url("asset/Tealca\ v1.2.png");
   background-size: contain;
   background-position-x: center;
 }
 
 .hero.is-primary .title {
   font-family: cursive;
-  color: #437df1;
+  color: #ffffff;
   text-align: center;
-  font-size: xxx-large;
+  font-size: 29px;
+}
+
+.title {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #0061a8;
 }
