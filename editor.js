@@ -17,7 +17,7 @@
 (function () {
   // URL del Web App (la misma que usa app.js)
   const scriptURL =
-    "https://script.google.com/macros/s/AKfycbxxXbC1a1OJA6-JnAgB56t4a8zw-S2rdxZLcpUklTTjeyA5CfkwVNkNq-St5ty_lW6y/exec";
+    "https://script.google.com/macros/s/AKfycbyFeafj8hVpVOQqomOPnOTH0l1QIlgaKjOUbakgY7h9a6OYq7l_-zEQT2w12OSsURuD/exec";
 
   // Elementos DOM
   const modeSelect = document.getElementById("modeSelect");
@@ -38,13 +38,15 @@
     "SERVICIO",
     "PROPUESTA",
     "SRM",
-    "BENEFICIOS",
+    "DESCUENTOS",
     "ESTATUS",
     "FECHACAP",
     "OBSERVACIONES",
     "CODIGOCLIENTE",
     "RANGOKG",
     "CODIGOF",
+    "CATEGORIA",
+    "theFile",
   ];
 
   // Inicializar estado
