@@ -19,14 +19,15 @@ const INSERT_EDITABLE_FIELDS = [
   // por defecto permitir estos (ajusta según tus necesidades)
   "FECHA",
   "REGION",
-  "EJECUTIVA",
+  "EJECUTIVO",
   "RIF",
   "RAZON_SOCIAL",
   "SERVICIO",
   "PROPUESTA",
   "SRM",
-  "BENEFICIOS",
+  "DESCUENTO",
   "ESTATUS",
+  "theFile",
 ];
 
 // Aplica las restricciones de edición para el modo "ingresar".
@@ -143,7 +144,7 @@ form.addEventListener("submit", async function (e) {
 
     // URL del Web App (Google Apps Script) al que se enviará el JSON
     const scriptURL =
-      "https://script.google.com/macros/s/AKfycbxxXbC1a1OJA6-JnAgB56t4a8zw-S2rdxZLcpUklTTjeyA5CfkwVNkNq-St5ty_lW6y/exec";
+      "https://script.google.com/macros/s/AKfycbyFeafj8hVpVOQqomOPnOTH0l1QIlgaKjOUbakgY7h9a6OYq7l_-zEQT2w12OSsURuD/exec";
 
     // Enviamos la petición POST con body en JSON (aquí Content-Type text/plain fue usado
     // en el original para sortear algunas políticas, pero se podría usar application/json si el server lo acepta)
