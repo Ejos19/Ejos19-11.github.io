@@ -38,6 +38,7 @@
     "SERVICIO",
     "PROPUESTA",
     "SRM",
+    "RIF",
     "DESCUENTOS",
     "ESTATUS",
     "FECHACAP",
@@ -368,3 +369,4 @@
     disableAllFieldsExcept(["RIF"]);
   }
 })();
+
