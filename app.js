@@ -27,6 +27,7 @@ const INSERT_EDITABLE_FIELDS = [
   "SRM",
   "DESCUENTO",
   "ESTATUS",
+  "OBSERVACIONES",
   "theFile",
 ];
 
@@ -240,3 +241,4 @@ if (modeSelect) {
     }
   });
 }
+
